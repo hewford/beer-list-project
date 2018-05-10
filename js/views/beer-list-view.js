@@ -13,7 +13,12 @@ BeerListView = Backbone.View.extend({
 
   render: function () {
 
+    // console.log('THIS MODEL.toJSON: ')
+    // console.log(this.model.toJSON());
+    // console.log('MODELS: '+ appView.attributes)
     this.$el.html(this.template(this.model.toJSON()));
+    // console.log("THIS:")
+    // console.log(this);
 
     return this;
   }

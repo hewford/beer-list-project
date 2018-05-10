@@ -118,7 +118,7 @@
     width: 50%;
   }
   .beer-info{
-    width: calc(100% - 280px);
+    width: calc(50vw - 285px);
     height:200px;
   }
 /* } */
